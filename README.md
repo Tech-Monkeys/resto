@@ -25,7 +25,7 @@ Now, enter your order in the given syntax
 
 The bot displays the bill and gives a choice to either confirm or to update the order.
 
-After the final confirmation, the bot gives out a final bill with the calculated time required to complete your order depending upon the previously stacked orders.
+After the final confirmation, the bot gives out a final bill along with the calculated time required to complete your order depending upon the previously stacked orders.
 
 ## Functions used in the code
 * usage() --> Allow users to flag messages as being follow-up items
