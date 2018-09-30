@@ -64,15 +64,15 @@ class resto(object):
 
         if original_message == 'menu':
             response= '''  ****Menu****
-                        patties          20
-                        bread_rolls      20
-                        brownie          40
-                        burger            30
+                        patties             20
+                        bread_rolls         20
+                        brownie             40
+                        burger              30
                         sandwich            25
                         iced_tea            10
-                        lemon_tea          10
-                        cold_coffee       40
-                        maggi              25
+                        lemon_tea           10
+                        cold_coffee         40
+                        maggi               25
 
                         Place Your Order:   '''
             bot_handler.send_reply(message, response)
@@ -84,7 +84,7 @@ class resto(object):
             return
 
         elif original_message == 'confirm':
-            response='Your order is confirmed and it will take ' + str(timer()) +'minutes'
+            response='Your order is confirmed and it will take ' + str(timer()) +' minutes'
             self.order_received = self.order_received + 1
             bot_handler.send_reply(message,response)
             return
