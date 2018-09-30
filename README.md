@@ -32,3 +32,8 @@ After the final confirmation, the bot gives out a final bill along with the calc
 * handle_message() --> Handles user's messages.
 * timer()--> calculates the time required to complete the order
 * amount() --> calculates the billing amount
+
+## Future Aspects
+* provide the hosting food outlet with a database to manage number of stock left, used, available
+* database for management of orders collectively so as to have a control and knowledge of expenses and profits
+* better time calculating technique which will use individual item's preparation time to give the estimated time required for completion of the order
