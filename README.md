@@ -15,15 +15,13 @@ This will display the menu of the restaurant/cafe hosting the bot
 
 Now, enter your order in the given syntax
 
-`<quantity_1> <item_1>`
-
-`<quantity_2> <item_2>`
-
-`.`
-
-`.`
-
-`<quantity_n> <item_n>`
+```
+<quantity_1> <item_1>
+<quantity_2> <item_2>
+.
+.
+<quantity_n> <item_n>
+```
 
 The bot displays the bill and gives a choice to either confirm or to update the order.
 
